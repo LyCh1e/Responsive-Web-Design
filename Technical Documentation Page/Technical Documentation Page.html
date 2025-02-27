@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Programming Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>Python Documentation</header>
+        <a href="#Introduction" class="nav-link">Introduction</a>
+        <a href="#Python_Basics" class="nav-link">Python Basics</a>
+        <a href="#Data_Types" class="nav-link">Data Types</a>
+        <a href="#Control_Flow" class="nav-link">Control Flow</a>
+        <a href="#Functions" class="nav-link">Functions</a>
+        <a href="#Object_Oriented_Programming" class="nav-link">Object Oriented Programming</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>Python is a high-level, interpreted programming language known for its simplicity and readability.</p>
+            <p>Created by Guido van Rossum and released in 1991, Python emphasizes code readability with its notable use of significant whitespace.</p>
+            <p>Python features a dynamic type system and automatic memory management.</p>
+            <code>print("Hello, World!")</code>
+        </section>
+
+        <section class="main-section" id="Python_Basics">
+            <header>Python Basics</header>
+            <p>Python uses indentation to define code blocks.</p>
+            <p>Variables in Python do not need explicit declaration.</p>
+            <p>Python supports multiple programming paradigms.</p>
+            <code>
+# Variable assignment
+x = 5
+y = "Hello"
+            </code>
+            <ul>
+                <li>Easy to learn syntax</li>
+                <li>Dynamic typing</li>
+                <li>Interpreted language</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Data_Types">
+            <header>Data Types</header>
+            <p>Python has several built-in data types:</p>
+            <ul>
+                <li>Numbers (int, float, complex)</li>
+                <li>Strings</li>
+                <li>Lists</li>
+                <li>Tuples</li>
+                <li>Dictionaries</li>
+            </ul>
+            <code>
+# Data type examples
+number = 42
+text = "Python"
+list_example = [1, 2, 3]
+            </code>
+        </section>
+
+        <section class="main-section" id="Control_Flow">
+            <header>Control Flow</header>
+            <p>Control flow is managed using if statements, loops, and function calls.</p>
+            <p>Python uses indentation to define blocks in control structures.</p>
+            <p>Common control flow statements include if, while, and for.</p>
+            <code>
+if x > 0:
+    print("Positive")
+else:
+    print("Non-positive")
+            </code>
+            <code>
+for i in range(5):
+    print(i)
+            </code>
+        </section>
+
+        <section class="main-section" id="Functions">
+            <header>Functions</header>
+            <p>Functions are defined using the def keyword.</p>
+            <p>Python functions can return multiple values.</p>
+            <p>Arguments can have default values.</p>
+            <p>Functions are first-class objects in Python.</p>
+            <code>
+def greet(name="User"):
+    return f"Hello, {name}!"
+            </code>
+        </section>
+
+        <section class="main-section" id="Object_Oriented_Programming">
+            <header>Object Oriented Programming</header>
+            <p>Python is a multi-paradigm programming language.</p>
+            <p>It supports object-oriented programming with classes and inheritance.</p>
+            <p>Classes are defined using the class keyword.</p>
+            <p>Objects are instances of classes.</p>
+            <code>
+class Dog:
+    def __init__(self, name):
+        self.name = name
+        
+    def bark(self):
+        return f"{self.name} says woof!"
+            </code>
+        </section>
+    </main>
+</body>
+</html>
